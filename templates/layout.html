@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+</head>
+<body>
+    <table border="1">
+        <colgroup>
+            <col width="33%"/>
+            <col width="33%"/>
+            <col width="33%"/>
+        </colgroup>
+        <tr>
+            <th><b>과목명</b></th>
+            <th><b>담당교원</b></th>
+            <th><b><u>메모장</u></b></th>
+        </tr>
+        <tr>
+            <td>머신러닝</td>
+            <td>이종태 교수님</td>
+            <td><a href="{{url_for('memo1')}}">이동</a></td>
+        </tr>
+        <tr>
+            <td>정보시스템 통합 및 실습</td>
+            <td>간자르 교수님</td>
+            <td><a href="{{url_for('memo2')}}">이동</a></td>
+        </tr>
+        <tr>
+            <td>산업 AI</td>
+            <td>우딘 교수님</td>
+            <td><a href="{{url_for('memo3')}}">이동</a></td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>기능</b></td>
+        </tr>
+        <tr>
+            <td>계산기</td>
+            <td colspan="2"><a href="{{url_for('sessions')}}">이동</a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
